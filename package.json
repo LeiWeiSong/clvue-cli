@@ -1,0 +1,21 @@
+{
+  "name": "clvue-cli",
+  "version": "1.0.0",
+  "description": "coderlibs官方提供的vue脚手架",
+  "main": "index.js",
+  "bin": {
+    "clvue-cli": "bin/main.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "coderlibs",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^10.0.0",
+    "ejs": "^3.1.8",
+    "inquirer": "^8.2.5"
+  }
+}
