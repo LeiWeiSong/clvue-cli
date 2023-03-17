@@ -4,7 +4,7 @@
   "description": "coderlibs官方提供的vue脚手架",
   "main": "index.js",
   "bin": {
-    "clvue-cli": "bin/main.js"
+    "clvue": "bin/main.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -17,6 +17,7 @@
     "chalk": "^4.1.2",
     "commander": "^10.0.0",
     "ejs": "^3.1.8",
+    "fs-extra": "^11.1.0",
     "inquirer": "^8.2.5"
   }
 }
